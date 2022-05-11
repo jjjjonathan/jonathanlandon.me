@@ -1,18 +1,21 @@
 import React from 'react';
+import GlobalStyle from '../styles/global';
+import { Helmet } from 'react-helmet';
 import '@picocss/pico/css/pico.min.css';
 
 type Props = {
-  title?: string;
   children: React.ReactNode;
 };
 
-const Layout = ({ title, children }: Props) => {
+const Layout = ({ children }: Props) => {
   return (
-    <main>
-      <header>Jonathan Landon</header>
-      <title>{title && `${title} • `}Jonathan Landon</title>
-      {children}
-    </main>
+    <>
+      <Helmet>
+        <title>Jonathan Landon</title>
+      </Helmet>
+      <GlobalStyle />
+      <main>{children}</main>
+    </>
   );
 };
 
