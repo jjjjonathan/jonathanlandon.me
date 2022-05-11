@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import GlobalStyle from '../styles/global';
-import '@picocss/pico/css/pico.min.css';
+import Navbar from './Navbar';
 
 type Props = {
   children: React.ReactNode;
@@ -13,7 +13,8 @@ const Layout = ({ children }: Props) => (
       <title>Jonathan Landon</title>
     </Helmet>
     <GlobalStyle />
-    <main>{children}</main>
+    <Navbar />
+    <main className="container">{children}</main>
   </>
 );
 
