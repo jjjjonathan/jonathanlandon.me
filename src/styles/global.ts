@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import '@picocss/pico/css/pico.min.css';
 
 const GlobalStyle = createGlobalStyle`
   :root {
