@@ -25,7 +25,6 @@ const config: GatsbyConfig = {
         path: './src/images/',
       },
       __key: 'images',
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } as any,
   ],
 };
