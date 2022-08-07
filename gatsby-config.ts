@@ -8,7 +8,6 @@ const config: GatsbyConfig = {
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
@@ -25,7 +24,6 @@ const config: GatsbyConfig = {
         path: './src/images/',
       },
       __key: 'images',
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } as any,
   ],
 };
