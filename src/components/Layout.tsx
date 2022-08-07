@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import GlobalStyle from '../styles/global';
 import Navbar from './Navbar';
 
@@ -9,9 +8,6 @@ type Props = {
 
 const Layout = ({ children }: Props) => (
   <>
-    <Helmet>
-      <title>Jonathan Landon</title>
-    </Helmet>
     <GlobalStyle />
     <Navbar />
     <main className="container">{children}</main>

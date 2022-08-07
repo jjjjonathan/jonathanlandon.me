@@ -8,7 +8,7 @@ const GlobalStyle = styled.createGlobalStyle`
     /* CSS Variables */
 
     --white: #f0f4ef;
-    --black: #000000;
+    --black: #222823;
 
     /* ************* */
 
