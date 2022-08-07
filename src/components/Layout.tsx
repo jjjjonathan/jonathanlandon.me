@@ -3,7 +3,7 @@ import GlobalStyle from '../styles/global';
 import Navbar from './Navbar';
 
 type Props = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 const Layout = ({ children }: Props) => (

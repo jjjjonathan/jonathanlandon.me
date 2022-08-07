@@ -5,17 +5,12 @@ const GlobalStyle = styled.createGlobalStyle`
   ${normalize}
 
   :root {
-    /* CSS Variables */
-
     --white: #f0f4ef;
     --black: #222823;
-
-    /* ************* */
 
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    /* spacing: 1.5rem; */
   }
 
   html {
