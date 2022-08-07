@@ -5,7 +5,7 @@ const Navbar = () => (
   <nav className="container-fluid">
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/">Jonathan Landon</Link>
       </li>
     </ul>
     <ul>
